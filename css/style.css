@@ -1,0 +1,376 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', sans-serif;
+}
+a ,a:hover{
+	text-decoration: none;
+}
+/*header css gose here*/
+.header-section{
+	width: 100%;
+	background: #fcdb00 ;
+}
+.top-header {
+	width: 100%;
+	padding: 30px 0px;
+}
+.top-header .bg-light {
+    background-color: #fcdb00!important;
+}
+.top-header .navbar-light .navbar-nav .active>.nav-link{
+	color: #010101;
+}
+.top-header .navbar-light .navbar-nav .nav-link {
+    color: #010101;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 60px;
+    transition: .45s;
+}
+.top-header .navbar-light .navbar-nav .nav-link:hover{
+	color: #0fe;
+}
+/*banner css gose here*/
+.banner{
+	width: 100%;
+	padding: 30px 0px 80px 0px;
+}
+.banner .text-inner{
+	width: 100%;
+	padding: 20px 0px;
+}
+.banner .text-inner h2{
+	font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+.banner .text-inner h5{
+	font-size: 23px;
+    line-height: 33px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+.banner .text-inner p{
+	font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+.banner .text-inner ul{
+	display: block;
+}
+.banner .text-inner li{
+	display: inline-block;
+	list-style:none;
+}
+.banner .text-inner ul a{
+	font-size: 40px;
+    font-weight: 700;
+    padding-right: 35px;
+    color: #010101;
+    transition: .45s;
+}
+.banner .text-inner ul a:hover{
+	color: #0fe;
+}
+.banner .img-fluid{
+	max-width: 100%;
+    height: auto;
+    margin-left: 20%;
+}
+
+/*feature css gose here*/
+.feature-section{
+	width: 100%;
+	padding: 100px 0px;
+}
+.feature-section .title{
+	text-align: center;
+	padding: 20px 0px;
+}
+.feature-section .title h2{
+	font-size: 30px;
+    font-weight: 500;
+    margin: 5px 0px;
+}
+.feature-section .title p{
+	font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    margin: 10px 0px 60px 0px;
+}
+.feature-section .media{
+	width: 100%;
+}
+.feature-section .media .mr-3{
+	margin-right:25px !important;
+}
+.feature-section .mrr{
+	padding-top: 70px;
+}
+/*footer css code gose here*/
+.footer-section{
+	width: 100%;
+	padding: 90px 0px;
+	background:#010101;
+}
+.footer-section .title{
+	text-align: center;
+	padding: 20px 0px;
+}
+.footer-section .title h2{
+	font-size: 30px;
+    font-weight: 500;
+    margin: 5px 0px;
+    color: #fcdb00;
+}
+.footer-section .title p{
+	font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    margin: 10px 0px 20px 0px;
+    color: #898989;
+}
+.footer-section  .form-inline{
+	width: 100%;
+}
+.footer-section  .form-inline .form-group{
+	width: 80%;
+	padding:10px;
+}
+.footer-section  .form-inline .form-group .form-control{
+	width: 100%;
+	padding: 22px;
+}
+.footer-section  .form-inline .btn-primary{
+	font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 22px;
+    color: #010101;
+    background: #fcdb00;
+    transition: .45s;
+}
+.footer-section  .form-inline .btn-primary:hover{
+	background:transparent;
+	color: #fcdb00;
+}
+
+
+.footer-section .social-icon{
+	width: 100%;
+	text-align: center;
+	padding: 50PX 0PX ;
+}
+.footer-section .social-icon ul{
+	display: block;
+}
+.footer-section .social-icon ul li{
+	list-style:none;
+	display: inline-block;
+}
+.footer-section .social-icon ul li a{
+	font-size: 40px;
+	padding: 13px;
+	color: #fcdb00;
+	transition: .45s;
+}
+.footer-section .social-icon ul li a:hover{
+	background: transparent;
+	color: #0fe;
+}
+
+.footer-section .title-2{
+	text-align: left;
+	padding: 20px 0px;
+}
+.footer-section .title-2 p{
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 0px;
+    color: #898989;
+}
+.footer-section .title-2 a{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #898989;
+	text-decoration: none !important;
+}
+
+
+
+
+
+
+
+
+	/*MEDIA QUARIES CSS GOSE HERE*/
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .banner .text-inner h2{
+		font-size: 28px;
+	    line-height: 38px;
+	    font-weight: 600;
+	    margin: 20px 0px;
+	}
+	.banner{
+		padding: 0px 0px 20px 0px;
+	}
+	.banner .text-inner h5{
+	    font-size: 20px;
+	}
+	.banner .text-inner p{
+	    font-size: 13px;
+	}
+	.banner .img-fluid{
+		margin:0px;
+	}
+
+	/*feature*/
+	.feature-section{
+		padding: 40px 0px;
+	}
+	.feature-section .title h2{
+		font-size: 28px;
+	}
+	.feature-section .title p{
+		font-size: 14px;
+		 margin: 10px 0px 20px;
+	}
+	.feature-section .media{
+  		margin-bottom: 35px;
+	}
+	.feature-section .mrr{
+		padding-top: 0px;
+	}
+
+	/*footer*/
+	.footer-section{
+	padding: 50px 0px;
+	}
+	.footer-section .title h2{
+		font-size: 28px;
+	}
+	.footer-section .title p{
+		font-size: 14px;
+	}
+	.footer-section  .form-inline .form-group{
+		width: 72%;
+		padding:10px;
+	}
+	.footer-section  .form-inline .form-group .form-control{
+		padding: 20px 12px;
+	}
+	.footer-section  .form-inline .btn-primary{
+	    padding: 9px 15px;
+	}
+	.footer-section .social-icon{
+		padding: 20PX 0PX ;
+	}
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .banner .text-inner h2{
+		font-size: 28px;
+	    line-height: 38px;
+	    font-weight: 600;
+	    margin: 20px 0px;
+	}
+	.banner{
+		padding: 0px 0px 20px 0px;
+	}
+	.banner .text-inner h5{
+	    font-size: 20px;
+	}
+	.banner .text-inner p{
+	    font-size: 13px;
+	}
+	.banner .img-fluid{
+		margin:0px;
+	}
+	/*footer*/
+	.footer-section{
+	padding: 50px 0px;
+	}
+	.footer-section .title h2{
+		font-size: 28px;
+	}
+	.footer-section  .form-inline .form-group{
+		width: 72%;
+		padding:10px;
+	}
+	.footer-section  .form-inline .form-group .form-control{
+		padding: 20px 12px;
+	}
+	.footer-section  .form-inline .btn-primary{
+	    padding: 9px 15px;
+	}
+  
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .banner .text-inner h2{
+		font-size: 28px;
+	    line-height: 38px;
+	    font-weight: 600;
+	    margin: 20px 0px;
+	 }
+	 .banner{
+		padding: 0px 0px 20px 0px;
+	}
+	 .banner .text-inner h5{
+	    font-size: 20px;
+	}
+	.banner .text-inner p{
+	    font-size: 13px;
+	}
+	.banner .img-fluid{
+		margin:0px;
+	}
+	/*footer*/
+	.footer-section{
+	padding: 50px 0px;
+	}
+	.footer-section .title h2{
+		font-size: 28px;
+	}
+	.footer-section  .form-inline .form-group{
+		width: 72%;
+		padding:10px;
+	}
+	.footer-section  .form-inline .form-group .form-control{
+		padding: 20px 12px;
+	}
+	.footer-section  .form-inline .btn-primary{
+	    padding: 9px 15px;
+	}
+  
+}
